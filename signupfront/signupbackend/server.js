@@ -10,5 +10,5 @@ dotenv.config()
 mongoose.connect(process.env.DATABASE_ACCESS, ()=>console.log("Database connected"))
 
 
-app.use('')
+app.use('/app', routesUrls)
 app.listen(4000, ()=> console.log("server is up and running"))

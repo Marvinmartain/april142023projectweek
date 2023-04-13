@@ -18,4 +18,5 @@ router.post('/signup', (request, response) => {
     })
 })
 
+router.get('/signin')
 module.exports = router
