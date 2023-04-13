@@ -11,4 +11,4 @@ mongoose.connect(process.env.DATABASE_ACCESS, ()=>console.log("Database connecte
 
 
 app.use('/app', routesUrls)
-app.listen(4000, ()=> console.log("server is up and running"))
+app.listen(4000, () => console.log("server is up and running"))
